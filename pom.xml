@@ -46,14 +46,22 @@
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.28.0</version>
 		</dependency>
-	<!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-core -->
-<dependency>
-    <groupId>tech.tablesaw</groupId>
-    <artifactId>tablesaw-core</artifactId>
-    <version>0.38.1</version>
-</dependency>
 
-		
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-core</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.18.Final</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 
