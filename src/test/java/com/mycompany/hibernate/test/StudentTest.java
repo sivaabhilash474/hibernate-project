@@ -34,6 +34,10 @@ public class StudentTest {
 		SessionFactory sf = cfg.buildSessionFactory();
 		Session session = sf.openSession();
 		session.save(s2);
+//		int a = (Integer)session.save(s2);//save method returns the PK it can be a integer, float, String 
+//		session.persist(s2);//persist method does not return anything 
+//		session.saveOrUpdate(s2);//saveOrUpdate method also does not return anything for the same PK if there is any update in the object data then it will update the existing record in the table
+		
 		//Student object state is persistent
 		
 		session.beginTransaction().commit(); //Student object is moved to database
