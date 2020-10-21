@@ -7,7 +7,7 @@ public class Student {
 	private String email;
 	private int marks;
 	
-	//This is a git test, edited from github
+	//This is a git tesj, edited from git
 	
 	public Student() {
 		
