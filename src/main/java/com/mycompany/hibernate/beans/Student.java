@@ -7,6 +7,8 @@ public class Student {
 	private String email;
 	private int marks;
 	
+	//This is a git test
+	
 	public Student() {
 		
 	}
